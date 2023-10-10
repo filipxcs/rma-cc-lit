@@ -1,0 +1,68 @@
+if ($stageid == "2" || $stageid == "3")
+{?>   
+<tr>    
+      <td width="20"></td>  
+      <td width="135"><font color="<?print $colour1?>">Αναίτια Επιστροφή</font></td>
+      <td width="10"><font color="<?print $colour1?>">:</font></td>
+      <td width="250"><input name="anaitia_epistrofh" type="checkbox" value="1" <? print $noreason1; ?>/></td>
+      <td width="135"><font color="<?print $colour1?>">Υπαιτιότητα Χρήστη</font></td>
+      <td width="10"><font color="<?print $colour1?>">:</font></td>
+      <td width="130"><input name="ypiatiotita_xrhsth" type="checkbox" value="1" <? print $userblame1; ?>/></td>
+    </tr>     
+    <tr>
+    <td width="20"></td>  
+      <td width="135" colspan="4"><font color="<?print $colour1?>">Επιβεβαιώνεται η βλάβη που αναφέρει ο πελάτης;</font></td>
+      <td width="10"><font color="<?print $colour1?>">:</font></td>
+      <td width="250"><select name="epiveveosh" >
+      				<option value="1" SELECTED >---</option>
+      				<option value="Επιβεβαιώθηκε η βλάβη που ανέφερε ο πελάτης" >ΝΑΙ</option>
+                    <option value="Δεν επιβεβαιώθηκε η βλάβη που ανέφερε ο πελάτης" >ΟΧΙ</option>
+    				</select></td>
+                     
+      <td width="100"><font color="<?print $colour1?>">Χρέωση</font></td>
+      <td width="10"><font color="<?print $colour1?>">:</font></td>
+      <td width="70"><input name="xreosi" value="0" size="2" onKeyPress="return handleEnter(this, event)"></td>
+    </tr>
+    
+
+<? }
+else
+{}
+
+if ($stageid == "2" || $stageid == "3")
+{?>
+<tr>
+      <td width="20"></td>
+      <td width="135" valign=top><FORM name="form" action="insert.php" method="post">
+    <SELECT  size="8" id="Category" Name="Category" onChange="SelectSubCat();" >
+
+</SELECT>
+
+
+
+
+      </td>
+      <td width="10" valign="top"><font color="<?print $colour1?>">:</font></td>
+      <td colspan="4" width="125">
+      <SELECT Size="8" id="SubCat" NAME="SubCat" onChange="if(this.value == '') return false;
+if(this.form.parathrhseis_transaction.value.indexOf('Select from Drop Down List') > -1)this.form.parathrhseis_transaction.value = '';
+this.form.parathrhseis_transaction.value = this.options[this.selectedIndex].value;">
+</SELECT>
+      <textarea name="parathrhseis_transaction" cols="50" rows="7"></textarea> </td>
+     
+    </tr>
+<? }
+
+
+
+
+
+<tr>
+	<td width="20"></td>	
+      <td width="135"></td>
+      <td width="10"></td>
+     <td width="250"><select name="searchitem">
+    <option value="1">Έγκριση</option>
+    <option value="2">Παραλαβή</option>
+	</select></td>
+	</tr> 

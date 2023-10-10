@@ -1,0 +1,27 @@
+<html>
+<body> 
+
+
+<div align=center>
+<table style='border-collapse:collapse;border-spacing: 0;margin: 0;	padding: 0;	border: 0;horizontal-align:center;'>
+ <tr><td style='border-collapse:collapse;border-spacing: 0;margin: 0;	padding: 0;	border: 0;'>
+    <img border=0 src="http://images.netconnect.gr/img/DN-0065/greek_top1.png" width=610 height=25 usemap="#map0">
+     </td></tr>
+</table>
+
+<table width='610' background='http://images.netconnect.gr/img/DN-0065/greek_top2.png'>
+ <tr><td style='border-collapse:collapse;border-spacing: 0;margin: 0;	padding: 0;	border: 0;'>
+    <FONT FACE="georgia">Αγαπητέ Πελάτη</FONT>
+     </td></tr>
+   </table>
+<table style='border-collapse:collapse;border-spacing: 0;margin: 0;	padding: 0;	border: 0;horizontal-align:center;'>   
+ <tr><td style='border-collapse:collapse;border-spacing: 0;margin: 0;	padding: 0;	border: 0;'>
+    <img border=0 src="http://images.netconnect.gr/img/DN-0065/greek_bottom.png" width=610 height=544 usemap="#map0">  
+     </td></tr> 
+     
+
+ 
+</table>
+</div>
+</body>
+</html>

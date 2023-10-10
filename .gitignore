@@ -1,0 +1,8 @@
+*.swp
+*.swo
+.tmp*
+*.php~
+*.log
+*.sql~
+git_backup/*
+rma_backu_15112021/*
